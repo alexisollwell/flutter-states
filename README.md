@@ -8,7 +8,7 @@ Esta pagina sirve como guia para entender por que y cuando transicionar de setSt
 
 ## 1. Instalacion y Configuracion Inicial
 
-Para comenzar a utilizar GetX en tu proyecto, el proceso es muy sencillo pero requiere un pequeno ajuste en tu archivo principal.
+Para comenzar a utilizar GetX en tu proyecto, el proceso es muy sencillo pero requiere un pequeño ajuste en tu archivo principal.
 
 ### Paso 1: Agregar la dependencia
 En la terminal de tu proyecto, ejecuta:
