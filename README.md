@@ -8,6 +8,8 @@ Esta pagina sirve como guia para entender por que y cuando transicionar de setSt
 
 ## 1. Instalacion y Configuracion Inicial
 
+**Enlace oficial de la libreria:** [GetX en pub.dev](https://pub.dev/packages/get)
+
 Para comenzar a utilizar GetX en tu proyecto, el proceso es muy sencillo pero requiere un pequeño ajuste en tu archivo principal.
 
 ### Paso 1: Agregar la dependencia
