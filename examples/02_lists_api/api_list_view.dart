@@ -1,28 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'api_controller.dart';
 
-class ApiController extends GetxController {
-  var items = <String>[].obs;
-  var isLoading = false.obs;
-
-  @override
-  void onInit() {
-    super.onInit();
-    fetchData(); // Llamada al iniciar
-  }
-
-  Future<void> fetchData() async {
-    isLoading.value = true;
-    // Simulamos llamada a API
-    await Future.delayed(const Duration(seconds: 2));
-    items.assignAll(['Elemento 1', 'Elemento 2', 'Elemento 3']);
-    isLoading.value = false;
-  }
-}
-
-class ApiListGetX extends StatelessWidget {
+class ApiListGetXView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // Se importa la instancia del controllador desde el archivo externo
     final ApiController apiController = Get.put(ApiController());
 
     return Scaffold(
